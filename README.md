@@ -21,7 +21,9 @@ trigger MaintenanceRequest on Case (before update, after update) {
 ```
 
 
-************************
+
+
+```
 public class MaintenanceRequestHelper {
     
        public static void updateWorkOrders(Map<Id, Case> applicableCases){
@@ -64,10 +66,11 @@ public class MaintenanceRequestHelper {
     
 }
 
+```
 
 
 
-***************************************
+```
 @isTest
 public class MaintenanceRequestTest {
 	@isTest
@@ -111,6 +114,6 @@ public class MaintenanceRequestTest {
         
     }
 }
-
+```
 
 
