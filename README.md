@@ -169,6 +169,8 @@ public class WarehouseCalloutService {
     }
     
     ```
+    
+    
     #Challenge 3#
     ```
     global class WarehouseSyncSchedule implements Schedulable{
@@ -198,6 +200,8 @@ public class WarehouseSyncScheduleTest {
 
 }
 ```
+
+
 ```
 @isTest
 global class WarehouseCalloutServiceMock implements HttpCalloutMock{
@@ -214,6 +218,7 @@ global class WarehouseCalloutServiceMock implements HttpCalloutMock{
     }
 }
 ```
+
 
 ```
 
