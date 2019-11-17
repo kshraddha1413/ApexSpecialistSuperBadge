@@ -1,7 +1,10 @@
-**Automate record creation**
+# Automate record creation
+
+## Challenge 1
 Install the unmanaged package for the schema and stubs for Apex classes and triggers. Rename cases and products to match the
 HowWeRoll schema, and assign all profiles to the custom HowWeRoll page layouts for those objects. Use the included package content to automatically create a Routine Maintenance request every time a maintenance request of type Repair or Routine Maintenance is updated to Closed. Follow the specifications and naming 
 conventions outlined in the business requirements.
+
 ```
 trigger MaintenanceRequest on Case (before update, after update) {
     Map<Id,Case> caseMap = new Map<Id,Case>();
